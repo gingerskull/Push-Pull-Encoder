@@ -77,7 +77,7 @@ Push the knob and the top board's button hits the bar. Pull it and the bottom bo
 
 ## Files
 
-| Folder | What's in it |
+| Folder<img align="right" src="docs/img/spacer.png" width="400" height="1" alt=""> | What's in it<img align="right" src="docs/img/spacer.png" width="1000" height="1" alt=""> |
 |:--|:--|
 | [`CAD/pcb/`](CAD/pcb/) | Gerbers to order the board, schematic, EasyEDA Pro project |
 | [`CAD/printed/`](CAD/printed/) | Inner frame + housing for each build (STEP, one file per build), knob |
