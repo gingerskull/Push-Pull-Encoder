@@ -10,34 +10,34 @@ Both boards come from one PCB design. The headers you fit decide which becomes t
 
 ## Two versions
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/versions-dark.png"><img src="docs/img/versions.png" width="560" alt="The 20 mm and 15 mm versions side by side"></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/versions-dark.png"><img src="docs/img/versions.png" width="560" alt="The through-hole-button and SMD-button builds side by side"></picture></p>
 
-Same PCB, encoder, headers and connector. Only the push buttons differ, and with them the gap between the boards.
+Only the two push buttons differ. Everything else, encoder and headers included, is through-hole in both builds.
 
-| | 20 mm | 15 mm |
+| | Through-hole buttons | SMD buttons |
 |:--|:--|:--|
-| Push buttons | Through-hole, SAMZO 2010751102 | SMD, Panasonic EVQ9P105M |
+| Push buttons | SAMZO 2010751102 | Panasonic EVQ9P105M |
+| Height | 35 mm housing | 30 mm housing, 5 mm shorter |
 | Long pin header | 21 mm | 17 mm |
-| Housing height | 35 mm | 30 mm |
-| Assembly instructions | **[20 mm instructions](docs/guide-20mm.md)** | **[15 mm instructions](docs/guide-15mm.md)** |
-| Printable | [PDF, 3 pages](PP-Stack-assembly-guide-20mm.pdf) | [PDF, 3 pages](PP-Stack-assembly-guide-15mm.pdf) |
+| Assembly instructions | **[Through-hole buttons](docs/through-hole-buttons.md)** | **[SMD buttons](docs/smd-buttons.md)** |
+| Printable | [PDF, 3 pages](PP-Stack-through-hole-buttons.pdf) | [PDF, 3 pages](PP-Stack-SMD-buttons.pdf) |
 
-The 20 mm version is easier to solder. The 15 mm one needs 5 mm less depth behind the panel.
+The SMD buttons are lower, so the boards sit 15 mm apart instead of 20 mm and the whole stack is 5 mm shorter. The through-hole buttons are easier to solder.
 
 ## Parts and where to buy
 
-| Qty | Part | Version | Buy |
+| Qty | Part | Build | Buy |
 |--:|:--|:--:|:--|
 | 2 | PCB | both | Order files coming soon |
 | 1 | Rotary encoder, Alps EC12E2420801 | both | [LCSC](https://www.lcsc.com/product-detail/C351236.html) · [AliExpress](https://www.aliexpress.com/item/1005006583646763.html) · [Mouser](https://www.mouser.com/ProductDetail/688-EC12E2420801) |
-| 2 | Push button, SAMZO 2010751102 | 20 mm | [LCSC](https://www.lcsc.com/product-detail/C41416693.html) · [AliExpress](https://www.aliexpress.com/item/1005005854541077.html) ("Flat head", "No Lock") |
-| 2 | Push button, Panasonic EVQ9P105M | 15 mm | [LCSC](https://www.lcsc.com/product-detail/C79157.html) · [Mouser](https://www.mouser.com/ProductDetail/667-EVQ-9P105M) |
+| 2 | Push button, SAMZO 2010751102 | Through-hole buttons | [LCSC](https://www.lcsc.com/product-detail/C41416693.html) · [AliExpress](https://www.aliexpress.com/item/1005005854541077.html) ("Flat head", "No Lock") |
+| 2 | Push button, Panasonic EVQ9P105M | SMD buttons | [LCSC](https://www.lcsc.com/product-detail/C79157.html) · [Mouser](https://www.mouser.com/ProductDetail/667-EVQ-9P105M) |
 | 1 | Female header, 1×4, 2.54 mm | both | [LCSC](https://www.lcsc.com/product-detail/C2897367.html) · [AliExpress](https://www.aliexpress.com/item/4001198421663.html) |
-| 1 | Long pin header, 1×4, 21 mm | 20 mm | [LCSC](https://www.lcsc.com/product-detail/C51353.html) · [AliExpress](https://www.aliexpress.com/item/1005001514058091.html) ("21mm") |
-| 1 | Long pin header, 1×4, 17 mm | 15 mm | [LCSC](https://www.lcsc.com/product-detail/C5156622.html) · [AliExpress](https://www.aliexpress.com/item/1005001514058091.html) ("17mm") |
+| 1 | Long pin header, 1×4, 21 mm | Through-hole buttons | [LCSC](https://www.lcsc.com/product-detail/C51353.html) · [AliExpress](https://www.aliexpress.com/item/1005001514058091.html) ("21mm") |
+| 1 | Long pin header, 1×4, 17 mm | SMD buttons | [LCSC](https://www.lcsc.com/product-detail/C5156622.html) · [AliExpress](https://www.aliexpress.com/item/1005001514058091.html) ("17mm") |
 | 1 | ZH1.5 connector, 5 pin, right angle | both | [LCSC](https://www.lcsc.com/product-detail/C2845568.html) · [AliExpress](https://www.aliexpress.com/item/1005012352793560.html) |
 | 8 | M2 × 6 self-tapping screw, pan head | both | [LCSC](https://www.lcsc.com/product-detail/C357360.html) · [AliExpress](https://www.aliexpress.com/item/4000982209705.html) |
-| 1 | Inner frame + housing | each its own | Printed |
+| 1 | Inner frame + housing | each its own | Printed, see below |
 | | ZH1.5 cable, 5 pin (optional) | both | [LCSC](https://www.lcsc.com/product-detail/C53155206.html) · [AliExpress](https://www.aliexpress.com/item/1005001649158434.html) |
 
 The pin headers come as 1×40 strips: snap off four pins.
@@ -45,7 +45,7 @@ The pin headers come as 1×40 strips: snap off four pins.
 > [!IMPORTANT]
 > The frame slides up and down inside the housing, so print both accurately. They need only a minimal gap: enough for smooth push and pull, not so much that the knob wobbles. Test-fit the frame in the housing before you assemble anything.
 
-You'll also need a soldering iron, flush cutters and a small screwdriver. For the SMD buttons, use a fine tip or a soldering hot plate. [`CAD/`](CAD/) has example assemblies of both versions plus the knob.
+You'll also need a soldering iron, flush cutters and a small screwdriver. For the SMD buttons, use a fine tip or a soldering hot plate. [`CAD/`](CAD/) has example assemblies of both builds plus the knob.
 
 ## One PCB, two jobs
 
@@ -59,7 +59,7 @@ U4 and U5 are mirror images, so when the top board flips onto the bottom one the
 
 ## How it works
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/20mm/how-it-works-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/20mm/how-it-works.png" alt="Cutaway showing the bar between the two buttons"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/through-hole/how-it-works-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/through-hole/how-it-works.png" alt="Cutaway showing the bar between the two buttons"></picture>
 
 The two boards, the inner frame and the encoder move together as one stack inside the housing. A bar fixed across the housing sits between the two push buttons.
 

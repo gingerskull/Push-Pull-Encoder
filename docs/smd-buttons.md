@@ -1,10 +1,10 @@
-# PP Stack · 15 mm assembly instructions
+# PP Stack assembly instructions · SMD buttons
 
-These are the assembly instructions for the 15 mm version, with SMD push buttons. There's also a [printable PDF](../PP-Stack-assembly-guide-15mm.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy).
+These are the assembly instructions for the build with SMD push buttons. Only the two buttons differ from the [through-hole-button build](through-hole-buttons.md); this one is 5 mm shorter. There's also a [printable PDF](../PP-Stack-SMD-buttons.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy).
 
 [The parts](#the-parts) · [A · Bottom board](#a--bottom-board) · [B · Top board](#b--top-board) · [C · Assembly](#c--assembly)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/parts-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/parts.png" alt="Exploded view of all parts"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/parts-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/parts.png" alt="Exploded view of all parts"></picture>
 
 ### The parts
 
@@ -17,8 +17,8 @@ These are the assembly instructions for the 15 mm version, with SMD push buttons
 | 1 | Long pin header, 4 pin, 17 mm |
 | 1 | ZH1.5 connector, 5 pin |
 | 8 | M2 self-tapping screw |
-| 1 | Inner frame, printed (15 mm) |
-| 1 | Housing, printed (15 mm) |
+| 1 | Inner frame, printed for this build |
+| 1 | Housing, printed for this build |
 
 You'll also need a soldering iron, flush cutters and a small screwdriver. For the SMD buttons, use a fine tip or a soldering hot plate.
 
@@ -31,7 +31,7 @@ You'll also need a soldering iron, flush cutters and a small screwdriver. For th
 
 ## A · Bottom board
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-01-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-01.png" alt="Step 1"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-01-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-01.png" alt="Step 1"></picture>
 
 ### 1 · Push button
 
@@ -44,7 +44,7 @@ Solder the SMD button onto its pads, centred in the SW7 outline.
 
 <br clear="right"><br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-02-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-02.png" alt="Step 2"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-02-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-02.png" alt="Step 2"></picture>
 
 ### 2 · Long pin header
 
@@ -57,7 +57,7 @@ Long pin header into **U5**, next to the ring. U4 stays empty on this board.
 
 <br clear="right"><br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-03-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-03.png" alt="Step 3"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-03-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-03.png" alt="Step 3"></picture>
 
 ### 3 · ZH connector
 
@@ -71,7 +71,7 @@ Flip the board. Fit CN2 with the opening facing the board edge.
 
 ## B · Top board
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-04-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-04.png" alt="Step 4"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-04-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-04.png" alt="Step 4"></picture>
 
 ### 4 · Push button
 
@@ -81,7 +81,7 @@ Same as step 1: SMD button, centred in the SW7 outline, by iron or hot plate.
 
 <br clear="right"><br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-05-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-05.png" alt="Step 5"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-05-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-05.png" alt="Step 5"></picture>
 
 ### 5 · Female header
 
@@ -94,7 +94,7 @@ Female header into **U4**, next to the dot. U5 stays empty on this board.
 
 <br clear="right"><br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-06-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-06.png" alt="Step 6"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-06-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-06.png" alt="Step 6"></picture>
 
 ### 6 · Encoder
 
@@ -111,9 +111,9 @@ Flip the board and fit the encoder.
 
 ## C · Assembly
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/asm-dark.gif"><img src="img/15mm/asm.gif" width="300" alt="Assembly sequence, steps 7 to 10"></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/asm-dark.gif"><img src="img/smd/asm.gif" width="300" alt="Assembly sequence, steps 7 to 10"></picture></p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-07-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-07.png" alt="Step 7"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-07-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-07.png" alt="Step 7"></picture>
 
 ### 7 · Bottom board onto the frame
 
@@ -126,7 +126,7 @@ Button side into the frame, then four self-tapping screws.
 
 <br clear="right"><br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-08-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-08.png" alt="Step 8"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-08-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-08.png" alt="Step 8"></picture>
 
 ### 8 · Into the housing
 
@@ -139,7 +139,7 @@ Slide the frame up into the housing. The slots pass over the bar and the connect
 
 <br clear="right"><br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-09-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-09.png" alt="Step 9"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-09-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-09.png" alt="Step 9"></picture>
 
 ### 9 · Top board
 
@@ -152,7 +152,7 @@ Lower the female header onto the long pins, dot over the ring, and screw the boa
 
 <br clear="right"><br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/15mm/step-10-dark.png"><img align="right" width="50%" vspace="12" src="img/15mm/step-10.png" alt="Step 10"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/smd/step-10-dark.png"><img align="right" width="50%" vspace="12" src="img/smd/step-10.png" alt="Step 10"></picture>
 
 ### 10 · Done
 
