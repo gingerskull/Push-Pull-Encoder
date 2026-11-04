@@ -45,14 +45,6 @@ You'll also need a soldering iron, flush cutters and a small screwdriver. For th
 
 Upload [`PP-Stack-PCB-v2-gerbers.zip`](CAD/pcb/PP-Stack-PCB-v2-gerbers.zip) as it is to JLCPCB, PCBWay or any other board house. Both builds use the same board.
 
-| Setting | Value |
-|:--|:--|
-| Layers | 2 |
-| Size | 20 × 20 mm |
-| Thickness | 1.6 mm (the stack heights assume it) |
-| Quantity | 2 per build, so the usual minimum of 5 covers two builds |
-| Stencil | Not needed. Only the SMD buttons use paste, 4 pads per board |
-
 The [schematic](CAD/pcb/PP-Stack-PCB-v2-schematic.pdf) and the [EasyEDA Pro project](CAD/pcb/PP-Stack-PCB-v2.epro2) are in the same folder if you want to change the board.
 
 ## One PCB, two jobs
