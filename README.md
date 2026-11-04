@@ -10,19 +10,13 @@ Both boards come from one PCB design. The headers you fit decide which becomes t
 
 ## Two versions
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/versions-dark.png"><img src="docs/img/versions.png" width="560" alt="The through-hole-button and SMD-button builds side by side"></picture></p>
+Only the two push buttons differ. Everything else, encoder and headers included, is through-hole in both builds. The SMD buttons are lower, so the boards sit 15 mm apart instead of 20 mm and the whole stack is 5 mm shorter. The through-hole buttons are easier to solder.
 
-Only the two push buttons differ. Everything else, encoder and headers included, is through-hole in both builds.
-
-| | Through-hole buttons | SMD buttons |
-|:--|:--|:--|
-| Push buttons | SAMZO 2010751102 | Panasonic EVQ9P105M |
-| Height | 35 mm housing | 30 mm housing, 5 mm shorter |
-| Long pin header | 21 mm | 17 mm |
-| Assembly instructions | **[Through-hole buttons](docs/through-hole-buttons.md)** | **[SMD buttons](docs/smd-buttons.md)** |
-| Printable | [PDF, 3 pages](assembly-instructions-through-hole-buttons.pdf) | [PDF, 3 pages](assembly-instructions-SMD-buttons.pdf) |
-
-The SMD buttons are lower, so the boards sit 15 mm apart instead of 20 mm and the whole stack is 5 mm shorter. The through-hole buttons are easier to solder.
+<table>
+<tr><td align="center" width="50%"><a href="docs/through-hole-buttons.md"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/build-through-hole-dark.png"><img src="docs/img/build-through-hole.png" alt="The through-hole-button build"></picture></a></td><td align="center" width="50%"><a href="docs/smd-buttons.md"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/build-smd-dark.png"><img src="docs/img/build-smd.png" alt="The SMD-button build, 5 mm shorter"></picture></a></td></tr>
+<tr><td align="center"><b>Through-hole buttons</b><br>SAMZO 2010751102<br>35 mm housing · 21 mm long pins</td><td align="center"><b>SMD buttons</b><br>Panasonic EVQ9P105M<br>30 mm housing, 5 mm shorter · 17 mm long pins</td></tr>
+<tr><td align="center"><a href="docs/through-hole-buttons.md"><img src="docs/img/button-instructions.png" width="290" alt="Assembly instructions, through-hole buttons"></a><br><a href="assembly-instructions-through-hole-buttons.pdf">Printable PDF, 3 pages</a></td><td align="center"><a href="docs/smd-buttons.md"><img src="docs/img/button-instructions.png" width="290" alt="Assembly instructions, smd buttons"></a><br><a href="assembly-instructions-SMD-buttons.pdf">Printable PDF, 3 pages</a></td></tr>
+</table>
 
 ## Parts and where to buy
 
