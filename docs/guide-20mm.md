@@ -1,6 +1,6 @@
-# PP Stack · 20 mm
+# PP Stack · 20 mm assembly instructions
 
-This is the 20 mm version, with through-hole push buttons. There's also a [printable PDF](../PP-Stack-assembly-guide-20mm.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy).
+These are the assembly instructions for the 20 mm version, with through-hole push buttons. There's also a [printable PDF](../PP-Stack-assembly-guide-20mm.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy).
 
 [The parts](#the-parts) · [A · Bottom board](#a--bottom-board) · [B · Top board](#b--top-board) · [C · Assembly](#c--assembly)
 
@@ -21,6 +21,9 @@ This is the 20 mm version, with through-hole push buttons. There's also a [print
 | 1 | Housing, printed (20 mm) |
 
 You'll also need a soldering iron, flush cutters and a small screwdriver.
+
+> [!IMPORTANT]
+> The frame slides up and down inside the housing, so print both accurately. They need only a minimal gap: enough for smooth push and pull, not so much that the knob wobbles. Test-fit the frame in the housing before you assemble anything.
 
 <br clear="right"><br>
 

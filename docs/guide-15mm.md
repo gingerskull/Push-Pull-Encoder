@@ -1,6 +1,6 @@
-# PP Stack · 15 mm
+# PP Stack · 15 mm assembly instructions
 
-This is the 15 mm version, with SMD push buttons. There's also a [printable PDF](../PP-Stack-assembly-guide-15mm.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy).
+These are the assembly instructions for the 15 mm version, with SMD push buttons. There's also a [printable PDF](../PP-Stack-assembly-guide-15mm.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy).
 
 [The parts](#the-parts) · [A · Bottom board](#a--bottom-board) · [B · Top board](#b--top-board) · [C · Assembly](#c--assembly)
 
@@ -20,7 +20,10 @@ This is the 15 mm version, with SMD push buttons. There's also a [printable PDF]
 | 1 | Inner frame, printed (15 mm) |
 | 1 | Housing, printed (15 mm) |
 
-You'll also need a soldering iron with a fine tip for the SMD buttons, flush cutters and a small screwdriver.
+You'll also need a soldering iron, flush cutters and a small screwdriver. For the SMD buttons, use a fine tip or a soldering hot plate.
+
+> [!IMPORTANT]
+> The frame slides up and down inside the housing, so print both accurately. They need only a minimal gap: enough for smooth push and pull, not so much that the knob wobbles. Test-fit the frame in the housing before you assemble anything.
 
 <br clear="right"><br>
 
@@ -37,7 +40,7 @@ You'll also need a soldering iron with a fine tip for the SMD buttons, flush cut
 Solder the SMD button onto its pads, centred in the SW7 outline.
 
 > [!TIP]
-> Tack one pad first, check the button sits flat, then solder the rest.
+> With an iron, tack one pad first, check the button sits flat, then solder the rest. A soldering hot plate works too: paste on the pads, button on, reflow. The board is still bare at this point, so nothing else is in the way.
 
 <br clear="right"><br>
 
@@ -74,7 +77,7 @@ Flip the board. Fit CN2 with the opening facing the board edge.
 
 <kbd>Button side</kbd>
 
-Same as step 1: SMD button, centred in the SW7 outline.
+Same as step 1: SMD button, centred in the SW7 outline, by iron or hot plate.
 
 <br clear="right"><br>
 

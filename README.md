@@ -19,7 +19,7 @@ Same PCB, encoder, headers and connector. Only the push buttons differ, and with
 | Push buttons | Through-hole, SAMZO 2010751102 | SMD, Panasonic EVQ9P105M |
 | Long pin header | 21 mm | 17 mm |
 | Housing height | 35 mm | 30 mm |
-| Guide | **[20 mm guide](docs/guide-20mm.md)** | **[15 mm guide](docs/guide-15mm.md)** |
+| Assembly instructions | **[20 mm instructions](docs/guide-20mm.md)** | **[15 mm instructions](docs/guide-15mm.md)** |
 | Printable | [PDF, 3 pages](PP-Stack-assembly-guide-20mm.pdf) | [PDF, 3 pages](PP-Stack-assembly-guide-15mm.pdf) |
 
 The 20 mm version is easier to solder. The 15 mm one needs 5 mm less depth behind the panel.
@@ -42,7 +42,10 @@ The 20 mm version is easier to solder. The 15 mm one needs 5 mm less depth behin
 
 The pin headers come as 1×40 strips: snap off four pins.
 
-You'll also need a soldering iron (a fine tip for the SMD buttons), flush cutters and a small screwdriver. [`CAD/`](CAD/) has example assemblies of both versions plus the knob.
+> [!IMPORTANT]
+> The frame slides up and down inside the housing, so print both accurately. They need only a minimal gap: enough for smooth push and pull, not so much that the knob wobbles. Test-fit the frame in the housing before you assemble anything.
+
+You'll also need a soldering iron, flush cutters and a small screwdriver. For the SMD buttons, use a fine tip or a soldering hot plate. [`CAD/`](CAD/) has example assemblies of both versions plus the knob.
 
 ## One PCB, two jobs
 
