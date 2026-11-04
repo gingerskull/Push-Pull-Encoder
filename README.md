@@ -6,7 +6,7 @@ A rotary encoder that also pushes and pulls, like the knobs on an Airbus FCU: tu
 
 Both boards come from one PCB design. The headers you fit decide which becomes the top and which the bottom, and the two stack face to face, so there's only one board design to order.
 
-[Two versions](#two-versions) · [Parts and where to buy](#parts-and-where-to-buy) · [Ordering the PCB](#ordering-the-pcb) · [One PCB, two jobs](#one-pcb-two-jobs) · [How it works](#how-it-works) · [Files](#files)
+[Two versions](#two-versions) · [Parts and where to buy](#parts-and-where-to-buy) · [Ordering the PCB](#ordering-the-pcb) · [One PCB, two jobs](#one-pcb-two-jobs) · [How it works](#how-it-works) · [Assembly instructions](#assembly-instructions) · [Files](#files)
 
 ## Two versions
 
@@ -75,6 +75,13 @@ Push the knob and the top board's button hits the bar. Pull it and the bottom bo
 
 <br clear="right"><br>
 
+## Assembly instructions
+
+| Build | Online | Printable |
+|:--|:--|:--|
+| Through-hole buttons | [Assembly instructions](docs/through-hole-buttons.md) | [PDF, 3 pages](assembly-instructions-through-hole-buttons.pdf) |
+| SMD buttons | [Assembly instructions](docs/smd-buttons.md) | [PDF, 3 pages](assembly-instructions-SMD-buttons.pdf) |
+
 ## Files
 
 | Folder<img align="right" src="docs/img/spacer.png" width="400" height="1" alt=""> | What's in it<img align="right" src="docs/img/spacer.png" width="1000" height="1" alt=""> |
@@ -82,4 +89,3 @@ Push the knob and the top board's button hits the bar. Pull it and the bottom bo
 | [`CAD/pcb/`](CAD/pcb/) | Gerbers to order the board, schematic, EasyEDA Pro project |
 | [`CAD/printed/`](CAD/printed/) | Inner frame + housing for each build (STEP, one file per build), knob |
 | [`CAD/assembly-example/`](CAD/assembly-example/) | Example assembly of each build (STEP) |
-| [`docs/`](docs/) | Assembly instructions for each build, images |
