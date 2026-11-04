@@ -1,6 +1,6 @@
 # PP Stack assembly instructions · Through-hole buttons
 
-These are the assembly instructions for the build with through-hole push buttons. Only the two buttons differ from the [SMD-button build](smd-buttons.md), which is 5 mm shorter. There's also a [printable PDF](../PP-Stack-through-hole-buttons.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy), and the board order settings are under [Ordering the PCB](../README.md#ordering-the-pcb).
+These are the assembly instructions for the build with through-hole push buttons. Only the two buttons differ from the [SMD-button build](smd-buttons.md), which is 5 mm shorter. There's also a [printable PDF](../assembly-instructions-through-hole-buttons.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy), and the board order settings are under [Ordering the PCB](../README.md#ordering-the-pcb).
 
 [The parts](#the-parts) · [A · Bottom board](#a--bottom-board) · [B · Top board](#b--top-board) · [C · Assembly](#c--assembly)
 

@@ -20,7 +20,7 @@ Only the two push buttons differ. Everything else, encoder and headers included,
 | Height | 35 mm housing | 30 mm housing, 5 mm shorter |
 | Long pin header | 21 mm | 17 mm |
 | Assembly instructions | **[Through-hole buttons](docs/through-hole-buttons.md)** | **[SMD buttons](docs/smd-buttons.md)** |
-| Printable | [PDF, 3 pages](PP-Stack-through-hole-buttons.pdf) | [PDF, 3 pages](PP-Stack-SMD-buttons.pdf) |
+| Printable | [PDF, 3 pages](assembly-instructions-through-hole-buttons.pdf) | [PDF, 3 pages](assembly-instructions-SMD-buttons.pdf) |
 
 The SMD buttons are lower, so the boards sit 15 mm apart instead of 20 mm and the whole stack is 5 mm shorter. The through-hole buttons are easier to solder.
 
@@ -30,17 +30,17 @@ The SMD buttons are lower, so the boards sit 15 mm apart instead of 20 mm and th
 |--:|:--|:--:|:--|
 | 2 | PCB, 20 × 20 mm, 2 layers | both | [Gerbers](CAD/pcb/PP-Stack-PCB-v2-gerbers.zip) for any board house, see [Ordering the PCB](#ordering-the-pcb) |
 | 1 | Rotary encoder, Alps EC12E2420801 | both | [LCSC](https://www.lcsc.com/product-detail/C351236.html) · [AliExpress](https://www.aliexpress.com/item/1005006583646763.html) · [Mouser](https://www.mouser.com/ProductDetail/688-EC12E2420801) |
-| 2 | Push button, SAMZO 2010751102 | Through-hole buttons | [LCSC](https://www.lcsc.com/product-detail/C41416693.html) · [AliExpress](https://www.aliexpress.com/item/1005005854541077.html) ("Flat head", "No Lock") |
+| 2 | Push button, SAMZO 2010751102 | Through-hole buttons | [LCSC](https://www.lcsc.com/product-detail/C41416693.html) · [AliExpress](https://www.aliexpress.com/item/1005005854541077.html) (pick the 5.8 × 5.8 mm, flat head, no lock version) |
 | 2 | Push button, Panasonic EVQ9P105M | SMD buttons | [LCSC](https://www.lcsc.com/product-detail/C79157.html) · [Mouser](https://www.mouser.com/ProductDetail/667-EVQ-9P105M) |
 | 1 | Female header, 1×4, 2.54 mm | both | [LCSC](https://www.lcsc.com/product-detail/C2897367.html) · [AliExpress](https://www.aliexpress.com/item/4001198421663.html) |
 | 1 | Long pin header, 1×4, 21 mm | Through-hole buttons | [LCSC](https://www.lcsc.com/product-detail/C51353.html) · [AliExpress](https://www.aliexpress.com/item/1005001514058091.html) ("21mm") |
 | 1 | Long pin header, 1×4, 17 mm | SMD buttons | [LCSC](https://www.lcsc.com/product-detail/C5156622.html) · [AliExpress](https://www.aliexpress.com/item/1005001514058091.html) ("17mm") |
 | 1 | ZH1.5 connector, 5 pin, right angle | both | [LCSC](https://www.lcsc.com/product-detail/C2845568.html) · [AliExpress](https://www.aliexpress.com/item/1005012352793560.html) |
-| 8 | M2 × 6 self-tapping screw, pan head | both | [LCSC](https://www.lcsc.com/product-detail/C357360.html) · [AliExpress](https://www.aliexpress.com/item/4000982209705.html) |
+| 8 | M2 × 8 self-tapping screw, pan head | both | [AliExpress](https://www.aliexpress.com/item/4000982209705.html) ("8mm") · [LCSC](https://www.lcsc.com/product-detail/C357361.html) (often out of stock) |
 | 1 | Inner frame + housing | each its own | Print from [`CAD/printed/`](CAD/printed/), see below |
 | | ZH1.5 cable, 5 pin (optional) | both | [LCSC](https://www.lcsc.com/product-detail/C53155206.html) · [AliExpress](https://www.aliexpress.com/item/1005001649158434.html) |
 
-The pin headers come as 1×40 strips: snap off four pins.
+The pin headers come as 1×40 strips: snap off four pins. The ZH connector is the right-angle kind; a straight one can work too, depending on the rest of the geometry.
 
 > [!IMPORTANT]
 > The frame slides up and down inside the housing, so print both accurately. Each build has one STEP file in [`CAD/printed/`](CAD/printed/) with both parts in it. They need only a minimal gap: enough for smooth push and pull, not so much that the knob wobbles. Test-fit the frame in the housing before you assemble anything.
@@ -95,5 +95,5 @@ Push the knob and the top board's button hits the bar. Pull it and the bottom bo
 |:--|:--|
 | [`CAD/pcb/`](CAD/pcb/) | Gerbers to order the board, schematic, EasyEDA Pro project |
 | [`CAD/printed/`](CAD/printed/) | Inner frame + housing for each build (STEP, one file per build), knob |
-| [`CAD/assembly/`](CAD/assembly/) | Complete assembly of each build (STEP) |
+| [`CAD/assembly-example/`](CAD/assembly-example/) | Example assembly of each build (STEP) |
 | [`docs/`](docs/) | Assembly instructions for each build, images |

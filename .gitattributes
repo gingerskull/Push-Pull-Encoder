@@ -1,3 +1,5 @@
 *.STEP binary
 *.step binary
 *.epro2 binary
+*.pdf binary
+*.zip binary
