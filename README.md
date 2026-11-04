@@ -1,6 +1,6 @@
 # Push-Pull Encoder
 
-<p align="center"><img src="docs/img/hero.gif" width="340" alt="Push-pull encoder: turn, push, pull"></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/hero-dark.gif"><img src="docs/img/hero.gif" width="340" alt="Push-pull encoder: turn, push, pull"></picture></p>
 
 A rotary encoder that also pushes and pulls, like the knobs on an Airbus FCU: turn to set a value, pull for selected, push for managed. It all fits in a 27 mm square housing.
 
@@ -12,7 +12,7 @@ This guide covers the 20 mm version, the one with through-hole push buttons. The
 
 ## Before you start
 
-<img align="right" width="50%" vspace="12" src="docs/img/parts.png" alt="Exploded view of all parts">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/parts-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/parts.png" alt="Exploded view of all parts"></picture>
 
 ### The parts
 
@@ -32,7 +32,7 @@ You'll also need a soldering iron, flush cutters and a small screwdriver.
 
 <br clear="right"><br>
 
-<img align="right" width="50%" vspace="12" src="docs/img/flip.gif" alt="Top board flips onto the bottom board, dot over ring">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/flip-dark.gif"><img align="right" width="50%" vspace="12" src="docs/img/flip.gif" alt="Top board flips onto the bottom board, dot over ring"></picture>
 
 ### One PCB, two jobs
 
@@ -42,7 +42,7 @@ U4 and U5 are mirror images, so when the top board flips onto the bottom one the
 
 <br clear="right"><br>
 
-<img align="right" width="50%" vspace="12" src="docs/img/how-it-works.png" alt="Cutaway showing the bar between the two buttons">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/how-it-works-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/how-it-works.png" alt="Cutaway showing the bar between the two buttons"></picture>
 
 ### How it works
 
@@ -56,7 +56,7 @@ Push the knob and the top board's button hits the bar. Pull it and the bottom bo
 
 ## A · Bottom board
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-01.png" alt="Step 1">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-01-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-01.png" alt="Step 1"></picture>
 
 ### 1 · Push button
 
@@ -72,7 +72,7 @@ Fit SW7 with the notch on its underside **opposite** the filled mark in the SW7 
 
 <br clear="right"><br>
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-02.png" alt="Step 2">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-02-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-02.png" alt="Step 2"></picture>
 
 ### 2 · Long pin header
 
@@ -85,7 +85,7 @@ Long pin header into **U5**, next to the ring. U4 stays empty on this board.
 
 <br clear="right"><br>
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-03.png" alt="Step 3">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-03-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-03.png" alt="Step 3"></picture>
 
 ### 3 · ZH connector
 
@@ -99,7 +99,7 @@ Flip the board. Fit CN2 with the opening facing the board edge.
 
 ## B · Top board
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-04.png" alt="Step 4">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-04-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-04.png" alt="Step 4"></picture>
 
 ### 4 · Push button
 
@@ -112,7 +112,7 @@ Same as step 1: notch opposite the silk mark.
 
 <br clear="right"><br>
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-05.png" alt="Step 5">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-05-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-05.png" alt="Step 5"></picture>
 
 ### 5 · Female header
 
@@ -125,7 +125,7 @@ Female header into **U4**, next to the dot. U5 stays empty on this board.
 
 <br clear="right"><br>
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-06.png" alt="Step 6">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-06-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-06.png" alt="Step 6"></picture>
 
 ### 6 · Encoder
 
@@ -142,9 +142,9 @@ Flip the board and fit the encoder.
 
 ## C · Assembly
 
-<p align="center"><img src="docs/img/asm.gif" width="300" alt="Assembly sequence, steps 7 to 10"></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/asm-dark.gif"><img src="docs/img/asm.gif" width="300" alt="Assembly sequence, steps 7 to 10"></picture></p>
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-07.png" alt="Step 7">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-07-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-07.png" alt="Step 7"></picture>
 
 ### 7 · Bottom board onto the frame
 
@@ -157,7 +157,7 @@ Button side into the frame, then four self-tapping screws.
 
 <br clear="right"><br>
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-08.png" alt="Step 8">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-08-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-08.png" alt="Step 8"></picture>
 
 ### 8 · Into the housing
 
@@ -170,7 +170,7 @@ Slide the frame up into the housing. The slots pass over the bar and the connect
 
 <br clear="right"><br>
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-09.png" alt="Step 9">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-09-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-09.png" alt="Step 9"></picture>
 
 ### 9 · Top board
 
@@ -183,7 +183,7 @@ Lower the female header onto the long pins, dot over the ring, and screw the boa
 
 <br clear="right"><br>
 
-<img align="right" width="50%" vspace="12" src="docs/img/step-10.png" alt="Step 10">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/step-10-dark.png"><img align="right" width="50%" vspace="12" src="docs/img/step-10.png" alt="Step 10"></picture>
 
 ### 10 · Done
 
