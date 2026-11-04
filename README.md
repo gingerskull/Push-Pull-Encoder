@@ -6,7 +6,7 @@ A rotary encoder that also pushes and pulls, like the knobs on an Airbus FCU: tu
 
 Both boards come from one PCB design. The headers you fit decide which becomes the top and which the bottom, and the two stack face to face, so there's only one board design to order.
 
-[Two versions](#two-versions) · [Parts and where to buy](#parts-and-where-to-buy) · [One PCB, two jobs](#one-pcb-two-jobs) · [How it works](#how-it-works)
+[Two versions](#two-versions) · [Parts and where to buy](#parts-and-where-to-buy) · [Ordering the PCB](#ordering-the-pcb) · [One PCB, two jobs](#one-pcb-two-jobs) · [How it works](#how-it-works) · [Files](#files)
 
 ## Two versions
 
@@ -28,7 +28,7 @@ The SMD buttons are lower, so the boards sit 15 mm apart instead of 20 mm and th
 
 | Qty | Part | Build | Buy |
 |--:|:--|:--:|:--|
-| 2 | PCB | both | Order files coming soon |
+| 2 | PCB, 20 × 20 mm, 2 layers | both | [Gerbers](CAD/pcb/PP-Stack-PCB-v2-gerbers.zip) for any board house, see [Ordering the PCB](#ordering-the-pcb) |
 | 1 | Rotary encoder, Alps EC12E2420801 | both | [LCSC](https://www.lcsc.com/product-detail/C351236.html) · [AliExpress](https://www.aliexpress.com/item/1005006583646763.html) · [Mouser](https://www.mouser.com/ProductDetail/688-EC12E2420801) |
 | 2 | Push button, SAMZO 2010751102 | Through-hole buttons | [LCSC](https://www.lcsc.com/product-detail/C41416693.html) · [AliExpress](https://www.aliexpress.com/item/1005005854541077.html) ("Flat head", "No Lock") |
 | 2 | Push button, Panasonic EVQ9P105M | SMD buttons | [LCSC](https://www.lcsc.com/product-detail/C79157.html) · [Mouser](https://www.mouser.com/ProductDetail/667-EVQ-9P105M) |
@@ -37,15 +37,29 @@ The SMD buttons are lower, so the boards sit 15 mm apart instead of 20 mm and th
 | 1 | Long pin header, 1×4, 17 mm | SMD buttons | [LCSC](https://www.lcsc.com/product-detail/C5156622.html) · [AliExpress](https://www.aliexpress.com/item/1005001514058091.html) ("17mm") |
 | 1 | ZH1.5 connector, 5 pin, right angle | both | [LCSC](https://www.lcsc.com/product-detail/C2845568.html) · [AliExpress](https://www.aliexpress.com/item/1005012352793560.html) |
 | 8 | M2 × 6 self-tapping screw, pan head | both | [LCSC](https://www.lcsc.com/product-detail/C357360.html) · [AliExpress](https://www.aliexpress.com/item/4000982209705.html) |
-| 1 | Inner frame + housing | each its own | Printed, see below |
+| 1 | Inner frame + housing | each its own | Print from [`CAD/printed/`](CAD/printed/), see below |
 | | ZH1.5 cable, 5 pin (optional) | both | [LCSC](https://www.lcsc.com/product-detail/C53155206.html) · [AliExpress](https://www.aliexpress.com/item/1005001649158434.html) |
 
 The pin headers come as 1×40 strips: snap off four pins.
 
 > [!IMPORTANT]
-> The frame slides up and down inside the housing, so print both accurately. They need only a minimal gap: enough for smooth push and pull, not so much that the knob wobbles. Test-fit the frame in the housing before you assemble anything.
+> The frame slides up and down inside the housing, so print both accurately. Each build has one STEP file in [`CAD/printed/`](CAD/printed/) with both parts in it. They need only a minimal gap: enough for smooth push and pull, not so much that the knob wobbles. Test-fit the frame in the housing before you assemble anything.
 
-You'll also need a soldering iron, flush cutters and a small screwdriver. For the SMD buttons, use a fine tip or a soldering hot plate. [`CAD/`](CAD/) has example assemblies of both builds plus the knob.
+You'll also need a soldering iron, flush cutters and a small screwdriver. For the SMD buttons, use a fine tip or a soldering hot plate.
+
+### Ordering the PCB
+
+Upload [`PP-Stack-PCB-v2-gerbers.zip`](CAD/pcb/PP-Stack-PCB-v2-gerbers.zip) as it is to JLCPCB, PCBWay or any other board house. Both builds use the same board.
+
+| Setting | Value |
+|:--|:--|
+| Layers | 2 |
+| Size | 20 × 20 mm |
+| Thickness | 1.6 mm (the stack heights assume it) |
+| Quantity | 2 per build, so the usual minimum of 5 covers two builds |
+| Stencil | Not needed. Only the SMD buttons use paste, 4 pads per board |
+
+The [schematic](CAD/pcb/PP-Stack-PCB-v2-schematic.pdf) and the [EasyEDA Pro project](CAD/pcb/PP-Stack-PCB-v2.epro2) are in the same folder if you want to change the board.
 
 ## One PCB, two jobs
 
@@ -74,3 +88,12 @@ Push the knob and the top board's button hits the bar. Pull it and the bottom bo
 | 5 | CW (B) |
 
 <br clear="right"><br>
+
+## Files
+
+| Folder | What's in it |
+|:--|:--|
+| [`CAD/pcb/`](CAD/pcb/) | Gerbers to order the board, schematic, EasyEDA Pro project |
+| [`CAD/printed/`](CAD/printed/) | Inner frame + housing for each build (STEP, one file per build), knob |
+| [`CAD/assembly/`](CAD/assembly/) | Complete assembly of each build (STEP) |
+| [`docs/`](docs/) | Assembly instructions for each build, images |

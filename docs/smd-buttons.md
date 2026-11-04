@@ -1,6 +1,6 @@
 # PP Stack assembly instructions · SMD buttons
 
-These are the assembly instructions for the build with SMD push buttons. Only the two buttons differ from the [through-hole-button build](through-hole-buttons.md); this one is 5 mm shorter. There's also a [printable PDF](../PP-Stack-SMD-buttons.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy).
+These are the assembly instructions for the build with SMD push buttons. Only the two buttons differ from the [through-hole-button build](through-hole-buttons.md); this one is 5 mm shorter. There's also a [printable PDF](../PP-Stack-SMD-buttons.pdf) (3 pages). Shop links for every part are in the [parts table](../README.md#parts-and-where-to-buy), and the board order settings are under [Ordering the PCB](../README.md#ordering-the-pcb).
 
 [The parts](#the-parts) · [A · Bottom board](#a--bottom-board) · [B · Top board](#b--top-board) · [C · Assembly](#c--assembly)
 
@@ -17,8 +17,7 @@ These are the assembly instructions for the build with SMD push buttons. Only th
 | 1 | Long pin header, 4 pin, 17 mm |
 | 1 | ZH1.5 connector, 5 pin |
 | 8 | M2 self-tapping screw |
-| 1 | Inner frame, printed for this build |
-| 1 | Housing, printed for this build |
+| 1 | Inner frame + housing, printed ([STEP](../CAD/printed/PP-Stack-frame-housing-SMD-buttons.step)) |
 
 You'll also need a soldering iron, flush cutters and a small screwdriver. For the SMD buttons, use a fine tip or a soldering hot plate.
 
